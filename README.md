@@ -19,6 +19,9 @@ Approach: A very simple approach was followed to build the model and the results
 
 
 Best,
+
 Deepak Rawat
+
 Linkedin: linkedin.com/in/deepak-rawat-183316b5
+
 
