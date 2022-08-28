@@ -6,10 +6,10 @@
 
 In this project, I have tried to identify weather a particular new SMS is a potential Spam message or not. This is done using classical classfication algorithms using Machine learning. 
 
-Dataset used: https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset
+**Dataset used:** https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset
 For training the model, we have used a dataset of approximately 5000 messages, classfied into "Spam" and "ham". This dataset is obtained from kaggle. 
 
-Approach: A very simple approach was followed to build the model and the results were deployed using Streamlit app running on heroku server.
+**Approach:** A very simple approach was followed to build the model and the results were deployed using Streamlit app running on heroku server.
 - Data Loading
 - EDA: identification of outliers, correlation between features etc
 - Data Cleaning and preprocessing: Since we are dealing with text data, NLTK library alongwith NLP techniques were used to pre process data and create some features 
@@ -17,11 +17,23 @@ Approach: A very simple approach was followed to build the model and the results
 - Final Model: Multinomial Naive Bayes model was finalised due to high precision and accuracy
 - Deployment: Model deployed using Streamlit framewok using heroku server
 
+In case you want to check out the same visit:  https://sms-vagadro.herokuapp.com/
+
+**Few test cases:**
+SPAM:
+- congratulations you won 1000. call on this number to get your prize
+- you could win 5000 from credit card or loan. Reply to collect
+
+Not Spam:
+- Hello, are you coming to office today?
+- Do know who won the match yesterday? I had my bets on India
 
 Best,
 
 Deepak Rawat
 
 Linkedin: linkedin.com/in/deepak-rawat-183316b5
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
